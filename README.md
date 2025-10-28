@@ -1,24 +1,18 @@
-Task 1: Array Manipulation Basics
+Task 2: Filter and Search an Array
 Student Per Scholas Dewan Mahmud
 
-Task 1: Array Manipulation Basics
-
-This project shows how to use JavaScript arrays with basic functions.
-
 It includes:
-Creating an empty array called shoppingList
-Adding items with addItem()
-Removing the last item with removeLastItem()
-Displaying all items with displayList()
+Adding new items only if they are not already in the list
+Filtering items that match a search word (case-insensitive)
+Displaying the results in the browser console
 
 How to Use:
 Open index.html in your browser.
-Type an item and click Add Item.
-Click Remove Last Item to delete the last one.
-Click Display List and open the browser console to see the result.
+Add items using the Add Item button.
+Click Display List to see all items in the console.
+Type a word in the Search box and click Search to find matching items.
 
 Tools Used:
 HTML
 JavaScript
 Web Browser Console
-
