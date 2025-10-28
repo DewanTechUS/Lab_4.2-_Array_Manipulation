@@ -1,4 +1,5 @@
-Lab 2: Array Manipulation
+Lab 4.2 - Array Manipulation
+
 Student of Per Scholas - Dewan Mahmud
 
 
