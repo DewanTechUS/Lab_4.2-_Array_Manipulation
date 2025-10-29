@@ -62,16 +62,10 @@ function removeLastItem() {
 // Filter and search items
 // ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase\
 // ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
-function removeLastItem() { 
-  if (shoppingList.length === 0) {
-    console.log("The list is already empty!");
-    return;
-  }
+  // const removed = shoppingList.pop();
+  // console.log(`${removed} removed from the list.`);
+  // displayList(); // ← add this so the page updates
 
-  const removed = shoppingList.pop();
-  console.log(`${removed} removed from the list.`);
-  displayList(); // ← add this so the page updates
-}
 
 function filterItems(searchTerm) {
   const term = searchTerm.trim().toLowerCase();
